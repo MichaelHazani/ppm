@@ -3,8 +3,16 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-.title {
-/*	font-size: 2em;*/
+.titlex {
+	font-size: 5em;
 	font-weight: 100;
 	text-align: center;
 }
+
+.subtitle {
+  text-align: center;
+  margin-top:2%;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
