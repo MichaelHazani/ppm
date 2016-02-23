@@ -74,7 +74,9 @@
                 var randomVid = kitties[randomKey];
               console.log(randomVid);
                 $(".video").html("");
+                if(typeof randomVid !== "undefined") {
                 $(".video").append('<iframe width="560" height="315" src="' + randomVid + '?autoplay=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>');
+                }
                 break;
 
             case "big kitties":
