@@ -41,16 +41,16 @@ var giantBunnies = {
 };
 
 var others = {
-    1: '',
-    2: '',
-    3: '',
-    4: '',
-    5: '',
-    6: '',
-    7: '',
-    8: '',
-    9: '',
-    10: ''
+    1: 'https://www.youtube.com/embed/vb11rZgfihc',
+    2: 'https://www.youtube.com/embed/Ytp95piqWno',
+    3: 'https://www.youtube.com/embed/epUk3T2Kfno',
+    4: 'https://www.youtube.com/embed/wavh47RpLz4',
+    5: 'https://www.youtube.com/embed/hhoQqN9oUpo',
+    6: 'https://www.youtube.com/embed/18-xvIjH8T4',
+    7: 'https://www.youtube.com/embed/gynuHWj5mzI',
+    8: 'https://www.youtube.com/embed/_AtP7au_Q9w',
+    9: 'https://www.youtube.com/embed/Gg2HTHt02sA',
+    10: 'https://www.youtube.com/embed/CbILj_CYqno'
 
 };
 
