@@ -1,18 +1,45 @@
 body {
-font-family: 'Raleway', sans-serif;
-
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+background: #cb60b3;
+background: -moz-linear-gradient(left, #cb60b3 0%, #ad1283 100%, #de47ac 100%, #ad1283 101%);
+background: -webkit-linear-gradient(left, #cb60b3 0%,#ad1283 100%,#de47ac 100%,#ad1283 101%);
+background: linear-gradient(to right, #cb60b3 0%,#ad1283 100%,#de47ac 100%,#ad1283 101%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#ad1283',GradientType=1 );
 }
 
 .titlex {
-	font-size: 5em;
-	font-weight: 100;
-	text-align: center;
+  font-family: 'Lobster', cursive;
+    font-size: 10em;
+    text-align: center;
 }
+
+.btn {
+  border-radius: 24px;
+  color:black;
+  background-color: white;
+  filter: blur(5px);
+}
+
 
 .subtitle {
-  text-align: center;
-  margin-top:2%;
-  font-size: 1.5em;
-  font-weight: 100;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 3em;
+    font-weight: 100;
 }
 
+.fetchit {
+/*    margin-top: 3%;*/
+}
+
+.animal-select {
+
+    width: 13%;
+    margin-top: 2%;
+}
+
+.underbutton {
+    font-weight: 400;
+    font-size: .9em;
+}
