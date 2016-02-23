@@ -63,7 +63,7 @@
     $(".fetchit").click(function() {
         $(".fetchit").text("Fetch Me Another Pettable Pet to Pet, Please");
         var chosen = $("#selectpet").val();
-
+        $(".underbutton").show();
 
 
         switch (chosen) {
