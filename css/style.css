@@ -20,9 +20,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
   margin-bottom: 5%;
   background-color: transparent;
   filter: blur(5px);
+  font-weight: 400;
 }
 
+.btn:hover, .btn-primary:hover {
+background-color: hsl(314,49,22);
 
+}
 .subtitle {
     text-align: center;
     margin-top: 2%;
@@ -38,4 +42,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
 
     width: 13%;
     margin-top: 2%;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .titlex {
+    font-size:3em;
+
+  }
+
+  .subtitle {
+    font-size:1.2em;
+  }
+
+  .btn {
+    width:;
+  }
+
 }
