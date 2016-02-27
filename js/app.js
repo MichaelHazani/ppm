@@ -50,7 +50,8 @@ var others = {
     7: 'https://www.youtube.com/embed/gynuHWj5mzI',
     8: 'https://www.youtube.com/embed/_AtP7au_Q9w',
     9: 'https://www.youtube.com/embed/Gg2HTHt02sA',
-    10: 'https://www.youtube.com/embed/CbILj_CYqno'
+    10: 'https://www.youtube.com/embed/CbILj_CYqno',
+    11: 'https://www.youtube.com/embed/de6uTMEiZf0'
 
 };
 
