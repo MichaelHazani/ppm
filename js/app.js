@@ -10,7 +10,17 @@ var kitties = {
     7: 'https://www.youtube.com/embed/wNv74rvkAw8',
     8: 'https://www.youtube.com/embed/0vmoZEaN_-o',
     9: 'https://www.youtube.com/embed/7M-jsjLB20Y',
-    10: 'https://www.youtube.com/embed/fzzjgBAaWZw'
+    10: 'https://www.youtube.com/embed/fzzjgBAaWZw',
+    11: 'https://www.youtube.com/embed/2XID_W4neJo',
+    12: 'https://www.youtube.com/embed/JMSUU2b1xJ8',
+    13: 'https://www.youtube.com/embed/N22TJe6Gxro',
+    14: 'https://www.youtube.com/embed/tntOCGkgt98',
+    15: 'https://www.youtube.com/embed/D36JUfE1oYk',
+    16: 'https://www.youtube.com/embed/J---aiyznGQ',
+    17: 'https://www.youtube.com/embed/hdlvNX3xscE',
+    18: 'https://www.youtube.com/embed/1nTeKe9QVc8',
+    19: 'https://www.youtube.com/embed/OtRRUEs3o0c',
+    20: 'https://www.youtube.com/embed/w_XRV5n3oZk'
 };
 
 var bigKitties = {
@@ -23,7 +33,9 @@ var bigKitties = {
     7: 'https://www.youtube.com/embed/7OJ4Iv06CtI',
     8: 'https://www.youtube.com/embed/DfHARgviUzQ',
     9: 'https://www.youtube.com/embed/lkeVUFhiFss',
-    10: 'https://www.youtube.com/embed/2btR9rAcdzo'
+    10: 'https://www.youtube.com/embed/2btR9rAcdzo',
+    11: 'https://www.youtube.com/embed/TUsNyDYc8KA'
+
 };
 
 var giantBunnies = {
@@ -51,8 +63,8 @@ var others = {
     8: 'https://www.youtube.com/embed/_AtP7au_Q9w',
     9: 'https://www.youtube.com/embed/Gg2HTHt02sA',
     10: 'https://www.youtube.com/embed/CbILj_CYqno',
-    11: 'https://www.youtube.com/embed/de6uTMEiZf0'
-
+    11: 'https://www.youtube.com/embed/de6uTMEiZf0',
+    12: 'https://www.youtube.com/embed/fTpgqgfJs4w'
 };
 
 
@@ -118,7 +130,10 @@ $(".fetchit").click(function() {
 
             break;
     }
-
+    if ($(".video").css('opacity') != 0) {
+        $(".video").css('opacity', 0);
+    }
+    $(".video").fadeTo(2000, 1);
 });
 
 

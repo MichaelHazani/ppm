@@ -10,7 +10,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
 
 .titlex {
   font-family: 'Lobster', cursive;
-    font-size: 10em;
+    font-size: 8em;
     text-align: center;
 }
 
@@ -41,9 +41,14 @@ background-color: hsl(314,49,22);
 .animal-select {
 
     width: 13%;
+    min-width:150px;
     margin-top: 2%;
 }
 
+
+.video {
+  opacity:0;
+}
 @media only screen and (max-width: 480px) {
 
   .titlex {
