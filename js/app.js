@@ -20,7 +20,8 @@ var kitties = {
     17: 'https://www.youtube.com/embed/hdlvNX3xscE',
     18: 'https://www.youtube.com/embed/1nTeKe9QVc8',
     19: 'https://www.youtube.com/embed/OtRRUEs3o0c',
-    20: 'https://www.youtube.com/embed/w_XRV5n3oZk'
+    20: 'https://www.youtube.com/embed/w_XRV5n3oZk',
+    21: 'https://www.youtube.com/embed/J7UwSVsiwzI',
 };
 
 var bigKitties = {
